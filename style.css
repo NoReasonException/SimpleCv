@@ -1,0 +1,96 @@
+body{
+	margin:0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	font-family: 'Quicksand', sans-serif;
+
+}
+.CvMain{
+	width:52%;
+	height: auto;
+	margin:0 auto;
+	overflow: hidden;
+}
+.CvMain .CoverContainer{
+	width:100%;
+	padding: 2% 0;
+	background-image: url("img/cov.jpg");
+	background-size: cover;
+	background-position: 20% 30%;
+	border-top-right-radius: 25px;
+	border-top-left-radius: 25px;
+}
+.CvMain .CoverContainer .CoverMainText{
+	color:white;
+	margin-top:50%;
+	width:50%;
+	margin: 0 auto;
+	text-align: center;
+
+}
+.CvMain .CoverContainer .CoverMainText h2{
+	font-size: 45px;
+}
+.CvMain .CoverContainer .CoverMainText h6{
+	font-size: 20px;
+}
+.CvMain .MainInfo{
+	overflow-x: auto;
+	width:30%;
+	float: left;
+	background-color: #ebebeb;
+}
+.CvMain .MainInfo .Image img{
+	filter: grayscale(60%);
+	width:50%;
+	height: 50%;
+	margin:7% 25%;
+	border-radius: 40px;
+
+}
+.CvMain .MainInfo .PersonalDetails {
+	width:90%;
+	margin: 0 auto;
+}
+.CvMain .MainInfo .PersonalDetails ul li{
+	list-style-type: none;
+	margin-bottom: 3%;
+	margin-left: -20px;
+}
+.CvMain .MainInfo .PersonalDetails .Links img{
+	width:25px;
+	height:25px;
+	margin-right: 1%
+	filter:grayscale(99%);
+
+}
+.CvMain .Details{
+	height:100%;
+	width:70%;
+	float:left;
+}
+.CvMain .Details .ProfileDetails{
+	width:90%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.CvMain .Details .ProfileDetails .DetailElement{
+	margin:5% 0%;
+	list-style-type: none;
+	width:inherit;
+	height: 20%;
+	background-color: 
+}
+.CvMain .Details .ProfileDetails .DetailElement img{
+	float: left;
+
+
+}
+.CvMain .Details .ProfileDetails .DetailElement .Title{
+	font-size: 20px;
+}
+.CvMain .Details .ProfileDetails .DetailElement p{
+	font-size: 16px;
+	margin-left: 5%;
+}
